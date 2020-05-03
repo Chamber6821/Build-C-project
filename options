@@ -1,0 +1,23 @@
+##############################
+#        Параметры           #
+##############################
+
+PROCESS_MAX=12
+BUILD_ARGS="-Wall -std=c++17"
+
+##############################
+
+# При использовании пробелов поведение не извесно
+SOURCE_FOLDER=source/
+OBJECTS_FOLDER=obj/
+RELEASE_FOLDER=Release/
+LOG_FOLDER=.project/log/
+PROJECT_FOLDER=.project/
+
+SOURCE="c cc cpp cxx"
+HEADER="h hpp hxx"
+
+ERROR_LIST_FILES="${LOG_FOLDER}/comperrors.log"
+WARNING_LIST_FILES="${LOG_FOLDER}/compwarnings.log"
+
+##############################
